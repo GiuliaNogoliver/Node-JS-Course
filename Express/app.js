@@ -12,5 +12,6 @@ app.get('/', function(req, res){
     //res.send('Hello World!');
 });
 
-app.listen(3001);
-console.log("Server listening at 127.0.0.1:3001");
+var port = process.env.PORT || 3001;
+app.listen(port);
+console.log("Server listening at " + port);
