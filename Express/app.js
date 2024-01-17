@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 
+app.set('view', './view');
+app.set('view engine', 'jade');
+
 // crie um manipulador de roteador para o caminho inicial
 app.get('/', function(req, res){
     res.send('Hello World!');
