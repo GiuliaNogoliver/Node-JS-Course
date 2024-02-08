@@ -1,0 +1,1 @@
+Importantando o File System do Core e fazendo com que ele leia o arquivo e imprima.
